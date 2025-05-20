@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import GradesForm from '../../components/GradesForm';
+import GradesForm from '../../components/grades/GradesForm';
 
 const mockOnGradeAdded = jest.fn();
 

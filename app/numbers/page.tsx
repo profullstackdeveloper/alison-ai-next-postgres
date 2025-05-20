@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import NumbersForm from '../../components/NumbersForm';
-import NumbersTable from '../../components/NumbersTable';
+import NumbersForm from '../../components/numbers/NumbersForm';
+import NumbersTable from '../../components/numbers/NumbersTable';
 import Alert from '@mui/material/Alert';
 import { Box, Stack } from '@mui/material';
 

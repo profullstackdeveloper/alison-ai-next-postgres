@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 import { useState } from 'react';
-import { GradesTable } from '../../components/GradesTable';
-import GradesForm from '../../components/GradesForm';
+import { GradesTable } from '../../components/grades/GradesTable';
+import GradesForm from '../../components/grades/GradesForm';
 import { Alert, Box } from '@mui/material';
 import ErrorBoundary from './ErrorBoundary';
 
