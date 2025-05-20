@@ -9,7 +9,6 @@ describe('GradesForm', () => {
     jest.clearAllMocks();
   });
 
-  // Basic rendering tests
   it('renders form with all fields', () => {
     render(<GradesForm onGradeAdded={mockOnGradeAdded} />);
     expect(screen.getByLabelText('Class')).toBeInTheDocument();

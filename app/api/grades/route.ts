@@ -5,7 +5,6 @@ export async function POST(request: NextRequest) {
   try {
     const { class: className, grade } = await request.json();
 
-    // Server-side validation
     const validClasses = ['Math', 'Science', 'History'];
     if (!validClasses.includes(className)) {
       return NextResponse.json({ error: 'Invalid class' }, { status: 400 });

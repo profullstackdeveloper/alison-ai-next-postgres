@@ -1,5 +1,3 @@
-
-// Performance level mapping for grades
 export const getPerformanceLevel = (value: number): {
   label: string;
   color: "success" | "primary" | "warning" | "error";
@@ -15,5 +13,4 @@ export const getPerformanceLevel = (value: number): {
   }
 };
 
-// Class options for the dropdown
 export const classOptions = ["Math", "Science", "History"];
